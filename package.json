@@ -4,7 +4,7 @@
   "description": "wunderflats coding challenge",
   "main": "index.js",
   "scripts": {
-   "test": "nightwatch -c nightwatch.conf.js -e chrome,firefox"
+   "test": "nightwatch -c nightwatch.conf.js -e chrome"
   },
   "repository": {
     "type": "git",

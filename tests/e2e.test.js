@@ -7,7 +7,12 @@ module.exports = {
       
         .navigate()
         .validateForm()
-        .fillInForm(values.firstName, values.lastName, values.email, values.phoneNumber,values.password, values.passwordConfirmation)
+        .fillInForm(values.firstName, 
+          values.lastName, 
+          values.email, 
+          values.phoneNumber,
+          values.password, 
+          values.passwordConfirmation)
         .submit()
         .validateHomePage(values.pageTitle);
         
