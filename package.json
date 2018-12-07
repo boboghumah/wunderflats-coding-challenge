@@ -1,0 +1,24 @@
+{
+  "name": "wunderflats-assessment",
+  "version": "1.0.0",
+  "description": "wunderflats coding challenge",
+  "main": "index.js",
+  "scripts": {
+   "test": "nightwatch -c nightwatch.conf.js -e chrome,firefox"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/boboghumah"
+  },
+  "author": "bob oghumah",
+  "license": "ISC",
+  "dependencies": {
+    "nightwatch": "^0.9.21"
+  },
+  "devDependencies": {
+    "chromedriver": "^2.44.1",
+    "geckodriver": "^1.14.1",
+    "selenium-server": "^3.141.59"
+  }
+ 
+}
